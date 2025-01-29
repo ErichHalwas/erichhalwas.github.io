@@ -50,6 +50,12 @@ footer a:hover {
     align-items: center;
 }
 
+h1 {
+    font-family: "Afacad Flux", serif;
+    font-size: 50px;
+    color: #3c3c3c
+}
+
 .splash h1 {
     font-family: "Afacad Flux", serif;
     font-size: 50px;
@@ -72,18 +78,25 @@ hr {
 }
 
 /* Sections */
-section {}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Section Headings */
 section h2 {
     font-family: "Roboto", serif;
     font-size: 25px;
-    color: #311e76
+    color: #311e76;
 }
 
 /* Paragraph Styles */
 .education {
     font-style: oblique;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
 }
 
 /* link styles */
